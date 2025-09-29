@@ -1,4 +1,4 @@
-package SpringProgram1.beans;
+package SpringProgram1BeanFactory.beans;
 
 public class Student {
     private String name;
