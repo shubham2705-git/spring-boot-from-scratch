@@ -9,6 +9,7 @@ import org.springframework.core.io.Resource;
 
 
 public class Main {
+
     public static void main(String[] args) {
         Resource resource = new ClassPathResource("SpringProgram1BeanFactory/resources/applicationContext.xml");
         BeanFactory container = new XmlBeanFactory(resource);

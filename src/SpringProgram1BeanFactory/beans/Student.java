@@ -1,8 +1,10 @@
 package SpringProgram1BeanFactory.beans;
 
 public class Student {
+
     private String name;
     private int rollno;
+
     public String getName() {
         return name;
     }
@@ -15,6 +17,7 @@ public class Student {
     public void setRollno(int rollno) {
         this.rollno = rollno;
     }
+
     public void display() {
         System.out.println("Name: "+name);
         System.out.println("Rollno: "+rollno);

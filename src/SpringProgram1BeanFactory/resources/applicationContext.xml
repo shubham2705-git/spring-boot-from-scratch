@@ -6,7 +6,7 @@
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean class="SpringProgram1BeanFactory.beans.Student" id="stdObj">
-        <property name="name" value="Deepak Panwar" />
+        <property name="name" value="Bean Factory" />
         <property name="rollno" value="101" />
     </bean>
 
