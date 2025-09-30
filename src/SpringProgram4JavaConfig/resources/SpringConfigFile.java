@@ -9,6 +9,8 @@ public class SpringConfigFile {
     @Bean
     public Student stdObj(){
         Student std = new Student();
+        std.setName("Deepesh");
+        std.setRollno(222);
         return std;
     }
 }
