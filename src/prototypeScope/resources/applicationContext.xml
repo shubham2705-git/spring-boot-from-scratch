@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="prototypeScope.beans.Student" id="stdObj1" scope="prototype" >
+        <property name="name" value="Object 1" />
+        <property name="rollno" value="111" />
+    </bean>
+
+</beans>
