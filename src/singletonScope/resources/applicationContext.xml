@@ -5,7 +5,7 @@
            http://www.springframework.org/schema/beans
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="singletonScope.beans.Student" id="stdObj1">
+    <bean class="singletonScope.beans.Student" id="stdObj1" scope="singleton">
         <property name="name" value="Object 1" />
         <property name="rollno" value="111" />
     </bean>
